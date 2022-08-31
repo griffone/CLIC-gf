@@ -256,3 +256,86 @@ body {
   background-color: var(--verde);
   color: white;
 }
+
+/* Banner Section */
+
+.banner-section {
+  background-image: url(../img/banner.svg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner__container {
+  background: linear-gradient(139.81deg, #FFFFFF -2.13%, rgba(255, 255, 255, 0.4) -2.13%, rgba(255, 255, 255, 0.1) 50.87%);
+  border: 1px solid #009154;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  max-width: 60rem;
+  padding: 2rem 4rem;
+  color: var(--verde);
+}
+
+.banner__container__title {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin: 1.6rem 0;
+}
+
+/* Métodos de Pago */
+
+.metodos-de-pago {
+  color: var(--verde_oscuro);
+  font-size: 1.8rem;
+  margin: 5rem auto 3rem auto;
+  display: flex;
+  align-items: center;
+}
+.metodos-de-pago .m-pago-icons i {
+  font-size: 3.6rem;
+  margin: 0 2.6rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--verde_oscuro);
+  color: white;
+  text-align: center;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 5rem 0;
+}
+.footer__title h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.footer__media a {
+  text-decoration: none;
+  color: white;
+  font-size: 3.5rem;
+  margin-right: 7.5rem;
+}
+.footer__media a:last-child {
+  margin: 0;
+}
+.footer__media a:hover {
+  color: white;
+}
+.footer__media a i {
+  transition: all .2s;
+}
+.footer__media a i:hover {
+  transform: scale(1.2);
+  color: white;
+}
+.footer_copy p {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
