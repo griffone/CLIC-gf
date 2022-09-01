@@ -170,7 +170,7 @@ body {
 
 .novedades h2 {
   text-align: center;
-  margin: 3rem 6rem;
+  margin: 5rem 6rem;
   position: relative;
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
@@ -263,6 +263,8 @@ body {
   background-image: url(../img/banner.svg);
   background-size: cover;
   background-position: center center;
+  height: 27.5rem;
+  margin: 10rem 0;
 }
 
 .banner__container {
@@ -270,10 +272,11 @@ body {
   border: 1px solid #009154;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
-  border-radius: 15px;
+  border-radius: 30px;
   max-width: 60rem;
   padding: 2rem 4rem;
   color: var(--verde);
+  transform: translateY(-10px);
 }
 
 .banner__container__title {
@@ -288,7 +291,7 @@ body {
 .metodos-de-pago {
   color: var(--verde_oscuro);
   font-size: 1.8rem;
-  margin: 5rem auto 3rem auto;
+  margin: 0 auto 5rem auto;
   display: flex;
   align-items: center;
 }
